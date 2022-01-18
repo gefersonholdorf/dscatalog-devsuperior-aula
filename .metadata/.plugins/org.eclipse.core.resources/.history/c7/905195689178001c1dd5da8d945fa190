@@ -18,8 +18,8 @@ public class CategoryService {
 	private CategoryRepository repository;
 	
 	@Transactional(readOnly = true)
-	public List<CategoryDTO> findAll () {
+	public List<Category> findAll () {
 		List<Category> list = repository.findAll();
-		return list.stream().map(x -> new CategoryDTO(x)).collect(Collectors.toList());
+		return List<CategoryDTO> listDTO = list.stream().map(x -> new CategoryDTO(x)).collect(Collectors.toList());
 	}
 }
