@@ -1,0 +1,5 @@
+package com.gefersonholdorf.dscatalog.resources.exceptions;
+
+public class StandardError {
+
+}
