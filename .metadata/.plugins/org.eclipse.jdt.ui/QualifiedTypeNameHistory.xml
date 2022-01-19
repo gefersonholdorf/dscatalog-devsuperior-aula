@@ -15,4 +15,5 @@
     <fullyQualifiedTypeName name="com.gefersonholdorf.dscatalog.services.exceptions.EntityNotFoundException"/>
     <fullyQualifiedTypeName name="java.time.Instant"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.support.ServletUriComponentsBuilder"/>
 </qualifiedTypeNameHistroy>
