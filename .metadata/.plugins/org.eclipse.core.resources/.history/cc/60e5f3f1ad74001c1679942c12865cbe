@@ -1,9 +1,0 @@
-package com.gefersonholdorf.dscatalog.services;
-
-import org.springframework.stereotype.Service;
-
-@Service
-public class CategoryService {
-	
-	private CategoryRepository repository;
-}
