@@ -1,0 +1,17 @@
+package com.gefersonholdorf.dscatalog.entities;
+
+import java.io.Serializable;
+import java.util.Set;
+
+public class Product implements Serializable{
+	private static final long serialVersionUID = 1L;
+	
+	private Long id;
+	private String name;
+	private String Description;
+	private Double price;
+	private String imgUrl;
+	
+	Set<Category> categories = new HashSet<>();
+
+}
